@@ -31,7 +31,7 @@ int main(int argc, char *argv[]) {
 	for(int i=0;i<argc;i++){
 		if(max<testcase[i]){
 			max=testcase[i];
-		}else{
+		}else if (min>testcase[i]){
 			min=testcase[i];
 		}
 	}
